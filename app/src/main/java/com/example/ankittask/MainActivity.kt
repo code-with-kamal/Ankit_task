@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity() {
             when (it) {
                 is ResultState.Error -> {
                     Log.d("testing123", "onCreate: error ${it.exception} ")
+                    Log.d("testing123", "onCreate: error ${it.exception} ")
                 }
 
                 ResultState.Loading -> {
